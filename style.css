@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body, * {
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background: url(./shutterstock.png) no-repeat;
+    height: 700px;
+}
+.top-nav {
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.top-nav li {
+    margin-left: 65px;
+    margin-right: 40px;
+}
+.navbar-brand {
+    background-image: url(./logo.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 290px;
+    height: 65px;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.top-nav li a {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    margin: 25px 0;
+}
+
+.top-nav li a:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    left: -65px;
+    top: -11px;
+}
+
+.nav-link:hover {
+    color: #efb236 !important;
+}
+
+.top-nav li:first-child a:before{
+    background: url(./phon.png) no-repeat;
+
+}
+
+.top-nav li:last-child a:before{
+    background: url(./map.png) no-repeat;
+
+}
+
+.top-nav li:last-child {
+    margin-right: 0;
+}
+
+.top-nav li {
+    list-style: none;
+}
+
+.navbar-nav li:last-child {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Media Query For Responsive//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1300px ) {
+
+  
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1200px) {
+   
+
+  
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 992px) {
+
+   
+      
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 768px) {
+    
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+    .navbar-brand {
+        background-image: url(./logo.png);
+        background-repeat: no-repeat;
+        background-size: 150px;
+        width: 191px;
+        height: 33px;
+    }
+
+    .top-nav {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        text-decoration: none;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        background-color: #add8e652;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .btn-warning {
+        width: 100%;
+    }
+
+    .navbar-nav li:last-child {
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        background-color: #7bf3e84d !important;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgb(247 249 91) !important;
+    }
+
+    .navbar-nav .nav-link {
+        
+        text-align: center;
+        padding: 20px 0 !important;
+    }
+
+    .nav-link:hover {
+        color: #efb236 !important;
+        font-size: 30px !important;
+        letter-spacing: 10px;
+        background-color: #45404063 !important;
+    }
+
+
+}
