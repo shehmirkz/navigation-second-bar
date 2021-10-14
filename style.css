@@ -760,10 +760,10 @@ footer {
         transform: rotate( 
     -90deg);
         padding: 5px 0px;
-        top: -376px;
+        top: -176px;
         right: 0;
         bottom: 0;
-        left: 183px;
+        left: 73px;
         z-index: 1;
         width: 100%;
         font-size: 13px;
@@ -778,9 +778,6 @@ footer {
         margin-bottom: 28px;
         border-right: none !important;
     }
-
-
-
     
     .about-box {
         position: absolute;
@@ -790,7 +787,7 @@ footer {
     }
 
     .about-title {
-        padding-top: 0px;
+        padding-top: 20px;
         text-align: center;
         padding-bottom: 20px;
     }
@@ -847,7 +844,7 @@ footer {
     }
     .services {
         background: #ebe6e6;
-        padding: 0px 30px;
+        padding: 0px 153px;
     }
 
     .services-card {
@@ -1068,10 +1065,10 @@ footer {
     -90deg);
         padding: 5px 0px;
         position: relative;
-        top: -381px;
+        top: -374px;
         right: 0;
         bottom: 0;
-        left: 205px;
+        left: 201px;
         z-index: 1;
         width: 70%;
         font-size: 16px;
